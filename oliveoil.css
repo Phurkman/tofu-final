@@ -1,5 +1,5 @@
 html {
-    background-color: rgb(182, 208, 52);
+    background-color: rgb(173, 202, 29);
 }
 
 body {
@@ -17,6 +17,7 @@ body {
     display: flex;
     justify-content: center;
 }
+
 .globalnav {
     list-style-type: none;
     display: flex;
@@ -27,22 +28,73 @@ body {
     text-align: center;
 }
 
+.header-margin {
+    margin: 30px 50px;
+}
+
+.what-is-tofu {
+    font-size: 60px;
+    font-weight: bolder;
+
+}
+
+.text {
+    font-size: 35px;
+}
+
+.two-column-layout {
+    display: flex;
+    justify-content: left;
+    gap: 20px;
+}
+
+.image-tofu {
+    width: 300px;
+    height: auto;
+    padding:70px;
+
+}
+
 .navitem {
-    color: black;
+    color: rgb(49, 33, 16);
     text-decoration: none;
     padding: 20px;
     display: block;
 }
+
 a:hover {
     background-color: rgb(255, 122, 228);
     border-radius: 25px;
     color: cornsilk;
 }
+
 .main-content {
     margin: 30px 50px;
 }
-.text {
-    font-size: 35px;
+
+.main-header-extrafirm {
+    font-weight: 400;
+    font-style: normal;
+    font-size: 60px;
+    margin: 0px;
+
+}
+
+.main-header-firm {
+    font-weight: 400;
+    font-style: normal;
+    font-size: 60px;
+    margin: 0px;
+}
+
+.main-header-silken {
+     font-family: "Ballet", cursive;
+  font-optical-sizing: auto;
+  font-weight: 800px;
+  font-style: normal;
+  font-size: 90px;
+   margin: 0px;
+
 }
 
 .footernav {
