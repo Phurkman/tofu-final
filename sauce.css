@@ -1,14 +1,15 @@
 html {
-    background-color: rgb(255, 136, 62);
+    background-color: rgb(255, 116, 66);
 }
 
 body {
     color: rgb(49, 33, 16);
-  
+    margin: 0px;
     font-family: Arial, Helvetica, sans-serif;
 
 
 }
+
 .home-header {
     font-size: 250px;
     margin-bottom: 0px;
@@ -49,9 +50,9 @@ body {
 }
 
 .image-tofu {
-    width: 300px;
+    width: 450px;
     height: auto;
-    padding: 70px;
+
 }
 
 .navitem {
@@ -72,6 +73,7 @@ a:hover {
 }
 
 .main-header-extrafirm {
+    font-family: "Bevan", serif;
     font-weight: 400;
     font-style: normal;
     font-size: 60px;
@@ -80,6 +82,7 @@ a:hover {
 }
 
 .main-header-firm {
+    font-family: "Rubik Mono One", monospace;
     font-weight: 400;
     font-style: normal;
     font-size: 60px;

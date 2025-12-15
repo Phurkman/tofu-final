@@ -1,5 +1,5 @@
 html {
-    background-color: rgb(158, 204, 31);
+    background-color: rgb(255, 110, 214);
 }
 
 body {
@@ -50,9 +50,8 @@ body {
 }
 
 .image-tofu {
-    width: 300px;
+    width: 450px;
     height: auto;
-    padding:30px;
 
 }
 
